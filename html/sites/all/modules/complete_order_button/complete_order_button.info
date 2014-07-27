@@ -1,0 +1,5 @@
+name = Complete Order Button
+description = Changes the last button in checkout to 'Submit Order'
+package = Commerce (contrib)
+core = 7.x
+

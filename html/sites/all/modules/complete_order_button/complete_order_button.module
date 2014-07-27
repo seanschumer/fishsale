@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * @file
+ * Provides the ability to export to specific
+ */
+
+function complete_order_button_commerce_checkout_page_info_alter(&$checkout_pages) {
+  $checkout_pages['review']['submit_value'] = 'Submit Order';
+}
