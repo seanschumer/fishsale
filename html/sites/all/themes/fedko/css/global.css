@@ -2786,7 +2786,8 @@ article.comment {
   text-transform: uppercase; }
 .page-user .profile ul.user-information {
   width: 100%;
-  margin-left: 0px;}
+  margin-left: 0px;
+  margin-bottom: 0px;}
   .page-user .profile ul.user-information li {
     border-bottom: 1px solid #444;
     float: left;
@@ -2798,10 +2799,11 @@ article.comment {
     margin-bottom: 20px;
     margin-left: 0px;
     position: relative;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     width: 100%; }
     .page-user .profile ul.user-information li h4 {
       font-size: 14px;
+      margin-bottom: 0px;
      /* text-transform: uppercase;*/ }
     .page-user .profile ul.user-information li a {
       border: 1px solid #D8D8D8;
@@ -3222,4 +3224,8 @@ tr.odd {
 
 #edit-field-upc-value, #edit-field-vendor-value {
   width: 250px;
+}
+
+#edit-field-department-list-value-wrapper, #edit-field-class-list-value-wrapper{
+  width: 150px;
 }
